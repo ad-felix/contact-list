@@ -1,0 +1,43 @@
+#heading{
+    text-align: center;
+    font-family: sans-serif;
+    color: darkblue;
+    text-decoration: underline;
+}
+body{
+    text-align: center;
+    margin: 0;
+}
+
+#container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#container ul{
+    list-style: none;
+}
+
+#list{
+    color: wheat;
+    font-family: sans-serif;
+    display: flex;
+    flex-direction: row;
+    width: 25rem;
+    margin-bottom: .5rem;
+    background-image: linear-gradient(120deg,#111e6c,#003152)
+}
+
+#list p{
+    margin:1rem 2rem 1rem 2rem;
+}
+#window-close{
+    color:red;
+}
+#inner-container{
+    display: flex;
+    flex-direction: row;
+}
+#inner-container a i:hover{
+    background-color:red;
+}
